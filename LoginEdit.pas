@@ -6,7 +6,7 @@ uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Layouts,
   FMX.Objects, FMX.Controls.Presentation, FMX.Edit, FMX.StdCtrls,
-  FMX.Styles.Objects;
+  FMX.Styles.Objects, System.ImageList, FMX.ImgList;
 
 type
   TfrmLogin = class(TForm)
@@ -39,16 +39,8 @@ var
 implementation
 
 {$R *.fmx}
-{$R *.iPhone55in.fmx IOS}
-{$R *.LgXhdpiPh.fmx ANDROID}
-{$R *.LgXhdpiTb.fmx ANDROID}
-{$R *.NmXhdpiPh.fmx ANDROID}
-{$R *.SmXhdpiPh.fmx ANDROID}
-{$R *.iPhone4in.fmx IOS}
-{$R *.Moto360.fmx ANDROID}
-{$R *.SSW3.fmx ANDROID}
-{$R *.Windows.fmx MSWINDOWS}
 
 uses DataModule;
+{$R *.SmXhdpiPh.fmx ANDROID}
 
 end.
